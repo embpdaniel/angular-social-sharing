@@ -77,7 +77,7 @@ function checkLoginState(){
 //Initialize LinkedIn SDK
 $(function(){
   var cnfg = {
-    apiKey:"77a369ntml9thv"
+    apiKey:"########"
   }
   $('<script type="text/javascript" src="http://platform.linkedin.com/in.js">\n api_key: ' + cnfg.apiKey + ' \n onLoad: displayLinkedInLogin \n authorize: true  \n </script>').appendTo('body');
 });
